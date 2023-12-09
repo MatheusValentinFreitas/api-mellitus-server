@@ -1,9 +1,36 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "user": [
+    {
+      "id": 1,
+      "name": "",
+      "age": 0,
+      "gender": "",
+      "goal": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": 2
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "meal": [
+    {
+      "id": 1,
+      "ingredients": [],
+      "nutriotionalValue": {
+        "carbs": 0,
+        "protein": 0,
+        "fat": 0
+      },
+      "calories": 0
+    }
   ],
-  "profile": { "name": "typicode" }
+  "article": [
+    {
+      "author": "",
+      "subject": "",
+      "content": "<div>Hello World!</div>",
+      "publishDate": ""
+    }
+  ]
 }
